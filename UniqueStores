@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Deals - Household & Car Care</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #007BFF; color: white; padding: 15px; text-align: center; font-size: 24px; }
+        .container { padding: 20px; text-align: center; }
+        .product { display: inline-block; margin: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 10px; }
+        .product img { width: 150px; height: 150px; }
+        .cta { background: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        .cta:hover { background: #218838; }
+    </style>
+</head>
+<body>
+    <header>Smart Deals - Household & Car Care Essentials</header>
+    <div class="container">
+        <h2>🔥 Best-Selling Products 🔥</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Magic Car Cleaner</h3>
+            <p>Make your car shine like new!</p>
+            <button class="cta">Shop Now</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Ultimate Mop Set</h3>
+            <p>Effortless cleaning for your home.</p>
+            <button class="cta">Shop Now</button>
+        </div>
+        <h2>💬 What Our Customers Say 💬</h2>
+        <p>"Amazing products! My car looks brand new!" - Alex</p>
+        <p>"Best cleaning gadgets ever. Totally worth it!" - Sara</p>
+    </div>
+</body>
+</html>
+
